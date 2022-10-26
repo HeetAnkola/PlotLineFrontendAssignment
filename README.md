@@ -1,4 +1,4 @@
-# RichTextEditor_Plotline
+# RichTextEditor Plotline
 This Rich Text Editor is created using Slatejs and Reactjs as an assingment for plotline and also create by Heetkumar Ankola 
 
 This project you can do following things:
@@ -10,6 +10,7 @@ This project you can do following things:
 6. Image
 7. Color
 8. Highlight
+9. Align
 
 
 ![](public/Plotline%20Assignment.png)
