@@ -10,6 +10,7 @@ This project you can do following things:
 6. Image
 7. Color
 8. Highlight
+9. Align
 
 
 ![](public/Plotline%20Assignment.png)
