@@ -1,0 +1,41 @@
+nav {
+    background: #FAFBFC;
+    box-shadow: 0px 0px 1.25vw rgba(56, 71, 109, 0.03);
+    border-bottom: 0.0625vw solid #E6E6E6;
+    display: flex;
+    align-items: center;
+}
+.imageBox {
+    padding: 1.25vw;
+    border-right: 0.0625vw solid #E6E6E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#siteLogo{
+    width: 1.8vw;
+}
+#siteTitle{
+    color: #091E42;
+    font-weight: 500;
+    font-size: 1.25vw;
+    margin-left:1.25vw;
+}
+
+@media screen and (max-width:1400px) {
+    nav {
+        height: 60px;
+    }
+    .imageBox {
+        padding: 20px;
+        height: 60px;
+    }
+    #siteLogo {
+        width: 30px;
+    }
+    #siteTitle {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+}
+

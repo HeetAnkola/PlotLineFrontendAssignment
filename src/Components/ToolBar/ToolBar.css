@@ -1,0 +1,45 @@
+.toolbar{
+    width: 100%;
+    background: #FAFBFC;
+    border: 0.0625vw solid #E6E6E6;
+    border-radius: 0.31vw;
+    margin-top: 1.25vw;
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25vw;
+    padding-left: 1.25vw;
+}
+.icon{
+    margin-right: 1.1vw;
+    cursor: pointer;
+    height: 0.87vw;
+}
+#emoji {
+    height: 1vw;
+}
+#image{
+    height: 0.9vw;
+}
+#link{
+    height: 0.6vw;
+}
+
+@media screen and (max-width:1400px) {
+    .toolbar{
+        width: 100%;
+        max-width: 1400px;
+        overflow-x: auto;
+        border:1px solid #E6E6E6;
+        border-radius:5px;
+        margin-top: 20px;
+        padding: 16px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+    .icon{
+        margin-right: 18px;
+        cursor: pointer;
+        height: 14px;
+    }
+}

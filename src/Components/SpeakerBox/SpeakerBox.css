@@ -1,0 +1,82 @@
+.speakerBox {
+    margin-left: 165px;
+    margin-right: auto;
+    margin-top: 3.75vw;
+    max-width: 50vw;
+    min-width: 21.87vw;
+    background: #F4F5F7;
+    border-radius: 0.625vw 0.625vw 0px 0px;
+    padding: 0.87vw 1.25vw;
+}
+.speakerBox h4{
+    font-size: 1vw;
+    margin-bottom: 0.75vw;
+}
+.speaker{
+    margin-bottom:1.56vw;
+    color:#091E42;
+}
+.speaker:last-of-type{
+    margin-bottom: 0px;
+}
+
+.speakerInfo{
+    display: flex;
+    align-items: center;
+}
+.speakerInfo h4 {
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 1.25vw;  
+    opacity: 0.8;
+    margin-left: 0.625vw;
+    
+}
+.speakerInfo img{
+    width: 2.50vw;
+    height: 2.50vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.speakerComment{
+    margin-left: 3.12vw;
+    opacity: 0.6;
+    font-size: 1vw;
+}
+
+@media screen and (max-width:1400px) {
+    .speakerBox {
+        margin-top: 60px;
+        max-width: 800px;
+        min-width: 300px;
+        background: #F4F5F7;
+        border-radius: 10px 10px 0px 0px;
+        padding:14px 20px;
+    }
+    .speakerBox h4{
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    .speaker{
+        margin-bottom:25px;
+        color:#091E42;
+    }
+    .speakerInfo h4 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;  
+        opacity: 0.8;
+        margin-left: 10px;
+    }
+    .speakerInfo img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .speakerComment{
+        margin-left: 50px;
+        opacity: 0.6;
+        font-size: 16px;
+    }
+}
